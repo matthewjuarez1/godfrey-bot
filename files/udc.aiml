@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
+     <category>
+    <pattern>ARRIVAL</pattern>
+    <template>It's been a long while, Morgott.
+Long and hard didst thou fight.
+Tarnished Warrior.
+Spurned by the grace of gold.
+Be assured, the Elden Ring
+resteth close at hand.
+Alas, I am returned.
+To be granted audience once more.
+Upon my name as Godfrey, 
+The first Elden Lord!</template>
+  </category>
+  
+  <category>
+    <pattern>HELLO</pattern>
+    <template> Hello! How are you?</template>
+  </category>
+  
+  <category>
+    <pattern>*BAD*</pattern>
+    <template>Sorry to hear that!</template>
+  </category>
+  
+  <category>
+    <pattern>*GOOD*</pattern> 
+    <template>Great!</template>
+  </category>
+  
   <category>
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
